@@ -1,0 +1,23 @@
+.explore-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+  background-color: #f8f8f8;
+  margin-block: 60px;
+}
+
+.explore-section p {
+  color: #000;
+  font-family: Moderat;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.explore-section a {
+  color: #000;
+  font-family: Moderat;
+  font-size: 16px;
+  font-weight: 500;
+}

@@ -1,0 +1,51 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Moderat;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 25px;
+}
+
+.logo-name {
+  color: #141414;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 14px;
+}
+
+.links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.links ul li a {
+  color: #141414;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-right img {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.buySvg {
+  width: 50px;
+  background-color: #413dee;
+}
+
+.girlImg {
+  width: 70px;
+}

@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
+
+@font-face {
+  font-family: "Moderat";
+  src: url("src/assets/fonts/Moderat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Heldane";
+  src: url("src/assets/fonts/heldanetextregular.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
