@@ -2,18 +2,16 @@ import React from "react";
 import "./Card.css";
 
 function Card(props) {
-  const { image, cardPrice, cardDesc, cardId } = props;
+  const { image, cardPrice, cardDesc, cardId, isFavorited } = props;
 
   return (
     <div className="card-section">
       <div className="card">
         <div className="card-head">
           <h2>-59%</h2>
-          <img
-            src="src/assets/heart-outline.svg"
-            className="heart-icon"
-            alt=""
-          />
+          <button className={`button-69 ${isFavorited}`} role="button">
+            Urek
+          </button>
         </div>
         <div className="card-body">
           <img src={image} alt="" />

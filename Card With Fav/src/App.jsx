@@ -13,18 +13,21 @@ function App() {
       image: "src/assets/840de131974162b09d68033e23a850b5.jpg",
       price: 600000,
       description: "Nokia Essential Wireless Headphones 120CM BLACK",
+      isFavorited: false,
     },
     {
       id: 2,
       image: "./src/assets/840de131974162b09d68033e23a850b5.jpg",
       price: 500000,
       description: "Iphone Essential Wireless Headphones 120CM BLACK",
+      isFavorited: true,
     },
     {
       id: 3,
       image: "src/assets/840de131974162b09d68033e23a850b5.jpg",
       price: 400000,
       description: "Samsung Essential Wireless Headphones 120CM BLACK",
+      isFavorited: false,
     },
   ];
 
@@ -54,6 +57,7 @@ function App() {
         {informationCard.map((card) => (
           <Card
             key={card.id}
+            isFavorited={card.isFavorited}
             image={card.image}
             cardPrice={card.price}
             cardDesc={card.description}
